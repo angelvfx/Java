@@ -1,0 +1,13 @@
+package idiomasistema.minharesolucao;
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+public class MinhaResolucao {
+
+    public static void main(String[] args) {
+       
+        Dimension tela = Toolkit.getDefaultToolkit().getScreenSize();
+        
+        System.out.println("Sua resolucao: " + tela.width + "x" + tela.height);
+    }
+}
